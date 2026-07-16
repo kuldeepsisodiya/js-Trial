@@ -20,4 +20,14 @@
 // console.log(score.toFixed(2));
 // const Othernum = 23.89
 // console.log(Othernum.toPrecision(3));
-console.log(Math.random)
+// console.log(Math.random)
+
+// console.log(Math.floor(1,49,23,12,12))
+
+let myDate = new Date()
+console.log(myDate.toString());
+console.log(myDate.toISOString());
+console.log(typeof myDate);
+
+let myCDate = new Date(2024,0,23)
+console.log(myCDate.toString());
