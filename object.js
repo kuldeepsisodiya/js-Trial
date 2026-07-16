@@ -9,3 +9,6 @@ const jsuser = {
 console.log(jsuser[mySmbol]);
 console.log(typeof jsuser[mySmbol]);
 console.log(jsuser)
+
+Object.freeze(jsuser)
+// dosnt commit the changes after this the js user remains same 
