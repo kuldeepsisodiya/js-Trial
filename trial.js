@@ -20,4 +20,4 @@
 // console.log(score.toFixed(2));
 // const Othernum = 23.89
 // console.log(Othernum.toPrecision(3));
-console.log(Math.)
+console.log(Math.random)
