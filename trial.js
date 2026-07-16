@@ -22,12 +22,20 @@
 // console.log(Othernum.toPrecision(3));
 // console.log(Math.random)
 
-// console.log(Math.floor(1,49,23,12,12))
+// // console.log(Math.floor(1,49,23,12,12))
 
-let myDate = new Date()
-console.log(myDate.toString());
-console.log(myDate.toISOString());
-console.log(typeof myDate);
+// let myDate = new Date()
+// console.log(myDate.toString());
+// console.log(myDate.toISOString());
+// console.log(typeof myDate);
 
-let myCDate = new Date(2024,0,23)
-console.log(myCDate.toString());
+// let myCDate = new Date(2024,0,23)
+// console.log(myCDate.toString());
+
+
+//console.log(Math.floor(Date.now()/1000));
+//time Converstion In Seconds!
+// let date = new Date()
+// console.log(date.getMilliseconds());
+
+
