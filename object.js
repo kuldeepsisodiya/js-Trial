@@ -32,7 +32,11 @@
 
 const obj1 ={1:"a",2:"b"}
 const obj2 ={1:"a",2:"b"}
-const obj3 = Object.assign({}, obj1, obj2)
+// const obj3 = Object.assign({}, obj1, obj2)
+// use ... instead of this also called spread method 
+const obj3 ={...obj1,...obj2}
 
 console.log(obj3);
+// users[1].email to access users via index like id =1,2,4,4,5,
+// console.log(Object.keys,values,entries) ()
 
