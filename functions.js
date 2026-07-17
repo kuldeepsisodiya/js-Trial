@@ -5,7 +5,7 @@
 
 function sum(a,b){
     return(a+b)
-    //console.log(a+b) dont save in any other variable 
+    //console.log(a+b) dont save in any other variable  
 }
 
 const result = sum(1,6)
