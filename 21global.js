@@ -12,3 +12,13 @@ console.log(c);
 //     const element = array[i];
 // }
 
+function one(){
+    const username ="none"
+    function two (){
+        var website = "undefined"
+        console.log(username);
+    }
+    //  console.log(website); reference error due to undefined 
+    // two()
+}
+// one()
