@@ -7,3 +7,8 @@ if (true){
 console.log(c);
 //var or direct varible in any condition overides the orignal value of the varible var c=or c=
 //thats why we avoid var and direct variable define 
+
+// for (let i =0;i<array.length;i++){
+//     const element = array[i];
+// }
+
