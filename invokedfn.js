@@ -1,4 +1,8 @@
-//invoked jsfunction IIFE
-function mj(){
-    name: "None"
-}
+// //invoked jsfunction IIFE
+// (function iif (){
+//    console.log(`DB Connected`);
+   
+// }) ()
+
+// () () ()
+// first function define  2nd exicution call 
