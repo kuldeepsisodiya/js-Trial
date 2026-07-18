@@ -4,7 +4,7 @@ if (true){
     const b = 30
     c = 40 //or var c =40
 }
-console.log(c);
+// console.log(c);
 //var or direct varible in any condition overides the orignal value of the varible var c=or c=
 //thats why we avoid var and direct variable define 
 
@@ -22,3 +22,10 @@ function one(){
     // two()
 }
 // one()
+
+// addtwo(3) error due to before inti
+const addtwo = function(num){
+    return num++
+}
+addtwo(3)
+// if we take direct function we can call if before or after 
