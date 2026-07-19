@@ -41,3 +41,14 @@ console.log(val1);
 
 const bookprice = 100
 bookprice <= 80 ? console.log("less than 80") : console.log("more than 80")
+
+
+// avoiding if and else 
+let score = 85;
+
+let grade = score >= 90 ? "A"
+          : score >= 75 ? "B"
+          : score >= 60 ? "C"
+          : "F";
+
+console.log(grade); // B
