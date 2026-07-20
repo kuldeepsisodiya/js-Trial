@@ -37,4 +37,9 @@ coding.forEach( (item) => {
 function print (item){
     console.log(item)
 }
-coding.forEach(print)
+// coding.forEach(print)
+
+coding.forEach((item,index,arr) => {
+    console.log(item,index,arr);
+    
+})
