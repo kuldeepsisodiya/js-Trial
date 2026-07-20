@@ -28,6 +28,6 @@ map.set(`In`,"India")
 map.set(`Usa`,"United States")
 // Dont Carry Double Or We Can Say It Is kNown As Unique value with same order
 
-for (const key of object) {
-    console.log(key);
+for (const [key,value] of map) {
+    console.log(key, ':-' ,value);
 }
