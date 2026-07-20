@@ -36,5 +36,6 @@ const myObject = {
     'game2': 'Gta5'
 }
 for (const [key,value] of myObject){
-    
+    console.log(key, ':-' , value)
 }
+//will not work bcz of we cant iterate the object in for of loop
