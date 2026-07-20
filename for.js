@@ -17,3 +17,24 @@ for (const key in map) {
     console.log(key);
 }
 // bcz maps are non itrateable 
+
+
+// for each loop
+
+const coding = ["js","python","java"]
+coding.forEach( function (d) {
+    // console.log(d);
+    //basic
+})
+//call back ( without name or non named function) 
+
+//arrow funciton
+coding.forEach( (item) => {
+    // console.log(item);
+    
+} )
+
+function print (item){
+    console.log(item)
+}
+coding.forEach(print)
