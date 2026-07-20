@@ -18,3 +18,7 @@
 //     score++
     
 // } while (score<=11);
+const greetings = ["Hello Alice!", "Hello Bob!", "Hello Charlie!"]
+// for (const greet of greetings) {
+//     console.log(`${greet}`)
+// }
