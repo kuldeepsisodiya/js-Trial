@@ -26,3 +26,8 @@ const greetings = ["Hello Alice!", "Hello Bob!", "Hello Charlie!"]
 const map = new Map()
 map.set(`In`,"India")
 map.set(`Usa`,"United States")
+// Dont Carry Double Or We Can Say It Is kNown As Unique value with same order
+
+for (const key of object) {
+    console.log(key);
+}
