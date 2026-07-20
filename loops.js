@@ -22,3 +22,7 @@ const greetings = ["Hello Alice!", "Hello Bob!", "Hello Charlie!"]
 // for (const greet of greetings) {
 //     console.log(`${greet}`)
 // }
+//Maps
+const map = new Map()
+map.set(`In`,"India")
+map.set(`Usa`,"United States")
