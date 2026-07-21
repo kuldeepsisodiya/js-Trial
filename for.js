@@ -45,3 +45,10 @@ coding.forEach((item,index,arr) => {
 })
 
 let n1 = ["java","dlang","debug"]
+
+const values = n1.forEach( (item) => {
+    return item
+    } )
+
+    console.log(values);
+
