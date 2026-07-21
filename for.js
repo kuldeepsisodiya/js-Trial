@@ -81,9 +81,20 @@ const books = [
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
 
-  let userBooks = books.filter( (bk) => bk.genre === 'History')
+//   let userBooks = books.filter( (bk) => bk.genre === 'History')
 
-  userBooks = books.filter( (bk) => { 
-    return bk.publish >= 1995 && bk.genre === "History"
-})
-  console.log(userBooks);
+//   userBooks = books.filter( (bk) => { 
+    // return bk.publish >= 1995 && bk.genre === "History"
+// })
+//   console.log(userBooks);
+
+const myNumers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// const newNums = myNumers.map( (num) => { return num + 10})
+
+const newNums = myNumers
+                .map((num) => num * 10 )
+                .map( (num) => num + 1) // its input is the output of upper condition
+                .filter( (num) => num >= 40)
+
+console.log(newNums);
