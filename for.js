@@ -53,7 +53,7 @@ const values = n1.forEach( (item) => {
 // console.log(values);
 
 
-const myNums = [1,2,3,4,5,6,7,8,9,10]
+// const myNums = [1,2,3,4,5,6,7,8,9,10]
 //filter
 // const newNums = myNums.filter((nums) => nums > 4) 
 // if we use { } we have to write return or if we use () it directly returns the value
@@ -97,4 +97,25 @@ const newNums = myNumers
                 .map( (num) => num + 1) // its input is the output of upper condition
                 .filter( (num) => num >= 40)
 
-console.log(newNums);
+// console.log(newNums);
+
+const myNums = [1,2,3]
+//in reduce method we have 
+// const array = [1, 2, 3, 4];
+
+// 0 + 1 + 2 + 3 + 4
+// const initialValue = 0;
+// const sumWithInitial = array.reduce(
+//   (accumulator, currentValue) => accumulator + currentValue,
+//   initialValue,
+// );
+
+// console.log(sumWithInitial);
+// Expected output: 10
+const Total = myNums.reduce((acc, cur) => {
+    console.log(`acc: ${acc} and currval: ${cur}`);
+    return acc + cur
+}, 0)
+// console.log(Total);
+
+
